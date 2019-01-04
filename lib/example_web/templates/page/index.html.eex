@@ -1,0 +1,91 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3">COP5615 Bitcoin Project Demo</h1>
+      <p>Neel Rami UFID: 7712-3151</p>
+      <p>Haodi Ma UFID: 7719-2198</p>
+      <p>Click on Mining Button to mine a Bitcoin Block.</p>
+      <p>Enter the input fileds as per the documentation and Click on Transaction Button to create a Transaction.</p>
+      <p><a class="btn btn-primary btn-lg" id="mineButton" role="button">Mining &raquo;</a> </p>
+      
+      <div class="form-group">
+        <label for="sender">Sender:</label>
+        <input type="text" class="form-control" id="sender" size="15">
+      </div>
+      
+      <div class="form-group">
+        <label for="receiver">Receiver:</label>
+        <input type="text" class="form-control" id="receiver" size="15">
+      </div>
+  
+      <div class="form-group">
+        <label for="receiver">Amount (In BTC):</label>
+        <input type="text" class="form-control" id="amount" size="15">
+      </div>
+
+      <div class="form-group">
+        <label for="receiver">TransactionFee (In BTC):</label>
+        <input type="text" class="form-control" id="fee" size="15">
+      </div>
+
+      <p><a class="btn btn-primary btn-lg" id="transactionButton" role="button">Transaction &raquo;</a></p>
+  </div>
+
+  
+</div>
+
+<div class="container">
+  <div class="alert alert-primary" role="alert">
+    <h2>Block Table</h2>
+  </div>
+  <table id="blockTable" class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Block Height</th>
+        <th scope="col">Block Hash</th>
+        <th scope="col">Nonce</th>
+        <th scope="col">Mined by</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+  </table>
+  
+
+</div> <!-- /container -->
+
+<div class="container">
+  <div class="alert alert-primary" role="alert">
+    <h2>Transaction Table</h2>
+  </div>
+  <table id="transactionTable" class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Transaction ID</th>
+        <th scope="col">Transaction Type</th>
+        <th scope="col">Sender</th>
+        <th scope="col">Receiver</th>
+        <th scope="col">Amount (In BTC)</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+  </table>
+</div> <!-- /container -->
+
+<div class="container">
+  <div class="alert alert-primary" role="alert">
+    <h2>Nonce Chart</h2>
+  </div>
+  <canvas id="nonceChart" width="800" height="600"></canvas>
+  <div class="alert alert-primary" role="alert">
+    <h2>Block Chart</h2>
+  </div>
+  <canvas id="blockChart" width="800" height="600"></canvas>
+  <div class="alert alert-primary" role="alert">
+    <h2>Transaction Chart</h2>
+  </div>
+  <canvas id="transactionChart" width="800" height="600"></canvas>
+</div>
