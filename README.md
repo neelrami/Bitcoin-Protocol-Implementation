@@ -5,3 +5,5 @@ The goal of this project is to implement the Bitcoin Protocol and to build a lar
 ## Contents
 
 - Group Members
+- Introduction
+- Project Structure
