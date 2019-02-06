@@ -7,8 +7,8 @@ The goal of this project is to implement the Bitcoin Protocol and to build a lar
 - Group Members
 - Introduction
 - Project Structure
-- Assumptions
 - Pre-requisites
+- Assumptions
 - Program Inputs
 - Instructions to run the program
 
@@ -22,10 +22,6 @@ The goal of this project is to implement the Bitcoin Protocol and to build a lar
 
 ## Project Structure
 
-## Assumptions
-
-The number of processes is hard coded to the value 100. But the project can also run for more than 100 processes. To change the number of processes, go to lib/example_web/channels folder and then open the initializationChannel.ex file and the change the number from 100 to you choice in line number 9.
-
 ## Pre-requisites
 
 The following need to be installed to run the project:
@@ -33,3 +29,8 @@ The following need to be installed to run the project:
 - Elixir
 - Erlang
 - Phoenix Framework
+
+## Assumptions
+
+The number of processes is hard coded to the value 100. But the project can also run for more than 100 processes. To change the number of processes, go to lib/example_web/channels folder and then open the initializationChannel.ex file and the change the number from 100 to you choice in line number 9.
+
