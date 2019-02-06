@@ -25,3 +25,9 @@ The goal of this project is to implement the Bitcoin Protocol and to build a lar
 ## Assumptions
 
 ## Pre-requisites
+
+The following need to be installed to run the project:
+
+- Elixir
+- Erlang
+- Phoenix Framework
