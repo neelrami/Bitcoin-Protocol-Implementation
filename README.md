@@ -14,7 +14,7 @@ The goal of this project is to implement the Bitcoin Protocol and to build a lar
 
 ## Group Members
 
-#### Neel Manish Rami (UFID: 7712-3151)
+#### Neel Manish Rami (UFID: 7712-3151) 
 
 #### Haodi Ma (UFID: 7719-2198)
 
@@ -24,6 +24,7 @@ The goal of this project is to implement the Bitcoin Protocol and to build a lar
 
 ## Assumptions
 
+The number of processes is hard coded to the value 100. But the project can also run for more than 100 processes.
 ## Pre-requisites
 
 The following need to be installed to run the project:
