@@ -11,3 +11,9 @@ The goal of this project is to implement the Bitcoin Protocol and to build a lar
 - Pre-requisites
 - Program Inputs
 - Instructions to run the program
+
+## Group Members
+
+#### Neel Manish Rami (UFID: 7712-3151)
+
+#### Haodi Ma (UFID: 7719-2198)
