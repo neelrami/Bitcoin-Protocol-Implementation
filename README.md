@@ -12,12 +12,6 @@ The goal of this project is to implement the Bitcoin Protocol using Elixir progr
 - Program Inputs
 - Instructions to run the program
 
-## Group Members
-
-#### Neel Manish Rami (UFID: 7712-3151) 
-
-#### Haodi Ma (UFID: 7719-2198)
-
 ## Introduction
 
 ## Project Structure
